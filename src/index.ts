@@ -9,7 +9,7 @@ app.get('/ping', (c) => {
 });
 
 app.get('/college', (c) => {
-    return c.text('Hello, College! This is a test for Hono.js');
+    return c.text(' Hello, College'); 
 });
      
 
